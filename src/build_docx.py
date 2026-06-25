@@ -91,7 +91,7 @@ def build_q3():
     r.bold = True; r.font.size = Pt(16); r.font.color.rgb = NAVY
     r.font.name = FONT; r._element.rPr.rFonts.set(__import__('docx').oxml.ns.qn('w:eastAsia'), FONT)
     meta_line(d, "교과목: 사이버보안 WE-Meet   |   과제: AI 기반 공격탐지 에이전트 (네트워크 침입 탐지 및 보안로그 분석)")
-    meta_line(d, "팀: 팀장(팀장, 20220****) · 팀원(20230****)   |   기간: 2026-06-22 ~ 06-29   |   작성일: 2026-06-28")
+    meta_line(d, "팀: 팀장(팀장, (학번 비공개)) · 팀원((학번 비공개))   |   기간: 2026-06-22 ~ 06-29   |   작성일: 2026-06-28")
     meta_line(d, "※ 6.26 온/오프라인 소집 멘토링은 운영 여건상 미진행 → 멘토 과제(#1 PPT, #2 어려운점) 수행 및 비대면 멘토링 요청으로 대체")
 
     H(d, "1. 주요 논의 주제", size=13)
