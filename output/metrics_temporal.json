@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "holdout": "DoS",
+      "cold_start": false,
+      "F2_rec": 0.512,
+      "F2_fp": 118.0,
+      "F2temp_rec": 0.652,
+      "F2temp_fp": 100.0,
+      "temporal_imp": 0.645,
+      "delta": 0.14
+    },
+    {
+      "holdout": "DDoS",
+      "cold_start": false,
+      "F2_rec": 0.383,
+      "F2_fp": 100.0,
+      "F2temp_rec": 0.402,
+      "F2temp_fp": 100.0,
+      "temporal_imp": 0.401,
+      "delta": 0.019
+    },
+    {
+      "holdout": "Web",
+      "cold_start": false,
+      "F2_rec": 0.023,
+      "F2_fp": 100.0,
+      "F2temp_rec": 0.014,
+      "F2temp_fp": 100.0,
+      "temporal_imp": 0.621,
+      "delta": -0.009
+    },
+    {
+      "holdout": "Bot",
+      "cold_start": false,
+      "F2_rec": 0.009,
+      "F2_fp": 105.0,
+      "F2temp_rec": 0.39,
+      "F2temp_fp": 100.0,
+      "temporal_imp": 0.581,
+      "delta": 0.381
+    },
+    {
+      "holdout": "BruteForce",
+      "cold_start": true,
+      "F2_rec": 0.737,
+      "F2_fp": 126.0,
+      "F2temp_rec": 0.994,
+      "F2temp_fp": 100.0,
+      "temporal_imp": 0.505,
+      "delta": 0.257
+    }
+  ]
+}

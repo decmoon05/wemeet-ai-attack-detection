@@ -1,0 +1,84 @@
+{
+  "classes": [
+    "Benign",
+    "Bot",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "Web"
+  ],
+  "results": {
+    "random": {
+      "Benign": {
+        "recall": 0.996,
+        "precision": 0.995,
+        "f1": 0.995,
+        "support": 100000
+      },
+      "Bot": {
+        "recall": 0.991,
+        "precision": 0.998,
+        "f1": 0.994,
+        "support": 10000
+      },
+      "BruteForce": {
+        "recall": 0.998,
+        "precision": 0.999,
+        "f1": 0.998,
+        "support": 10013
+      },
+      "DDoS": {
+        "recall": 0.983,
+        "precision": 0.985,
+        "f1": 0.984,
+        "support": 20433
+      },
+      "DoS": {
+        "recall": 0.999,
+        "precision": 0.997,
+        "f1": 0.998,
+        "support": 22491
+      },
+      "Web": {
+        "recall": 0.568,
+        "precision": 0.919,
+        "f1": 0.702,
+        "support": 220
+      }
+    },
+    "random_macroF1": 0.9453,
+    "temporal_trained_classes": [
+      "Benign",
+      "BruteForce",
+      "DDoS",
+      "DoS"
+    ],
+    "temporal": {
+      "Benign": {
+        "recall": 0.94,
+        "precision": 0.821,
+        "f1": 0.877,
+        "support": 200000
+      },
+      "BruteForce": {
+        "recall": 0.0,
+        "precision": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "DDoS": {
+        "recall": 0.0,
+        "precision": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "DoS": {
+        "recall": 0.0,
+        "precision": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    },
+    "temporal_macroF1": 0.2192
+  }
+}

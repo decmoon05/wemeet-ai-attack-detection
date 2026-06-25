@@ -1,0 +1,86 @@
+{
+  "model": "XGB/F2",
+  "method": "conformal benign-tail + NP threshold",
+  "cal_benign": 300000,
+  "delta": 0.05,
+  "results": [
+    {
+      "fold": "2/21 DDoS",
+      "n": 561396,
+      "prev": 0.35731,
+      "AP": 0.9998,
+      "BSS_raw": 0.821,
+      "risk_atk": 49.1,
+      "risk_ben": 14.2,
+      "ops": {
+        "20": {
+          "recall": 0.016,
+          "fp_per_100k": 0.3,
+          "fp_count": 1
+        },
+        "50": {
+          "recall": 0.041,
+          "fp_per_100k": 1.9,
+          "fp_count": 7
+        },
+        "100": {
+          "recall": 0.353,
+          "fp_per_100k": 2.8,
+          "fp_count": 10
+        }
+      }
+    },
+    {
+      "fold": "2/23 Web",
+      "n": 829405,
+      "prev": 0.00065,
+      "AP": 0.3842,
+      "BSS_raw": -10.92,
+      "risk_atk": 47.7,
+      "risk_ben": 9.3,
+      "ops": {
+        "20": {
+          "recall": 0.392,
+          "fp_per_100k": 19.3,
+          "fp_count": 160
+        },
+        "50": {
+          "recall": 0.405,
+          "fp_per_100k": 45.2,
+          "fp_count": 375
+        },
+        "100": {
+          "recall": 0.421,
+          "fp_per_100k": 78.5,
+          "fp_count": 651
+        }
+      }
+    },
+    {
+      "fold": "3/2 Bot",
+      "n": 771587,
+      "prev": 0.18732,
+      "AP": 0.4166,
+      "BSS_raw": -0.288,
+      "risk_atk": 15.8,
+      "risk_ben": 8.1,
+      "ops": {
+        "20": {
+          "recall": 0.0,
+          "fp_per_100k": 10.4,
+          "fp_count": 65
+        },
+        "50": {
+          "recall": 0.0,
+          "fp_per_100k": 24.2,
+          "fp_count": 152
+        },
+        "100": {
+          "recall": 0.0,
+          "fp_per_100k": 63.0,
+          "fp_count": 395
+        }
+      }
+    }
+  ]
+}

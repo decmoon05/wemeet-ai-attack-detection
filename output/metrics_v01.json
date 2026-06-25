@@ -1,0 +1,40 @@
+{
+  "csv": "Wednesday-14-02-2018.csv",
+  "n_features": 78,
+  "attack_ratio": 0.3633016236320721,
+  "results": [
+    {
+      "model": "RandomForest",
+      "precision_attack": 1.0,
+      "recall_attack": 0.9999684996377458,
+      "f1_attack": 0.9999842495708008,
+      "confusion_matrix": [
+        [
+          166907,
+          0
+        ],
+        [
+          3,
+          95234
+        ]
+      ]
+    },
+    {
+      "model": "XGBoost",
+      "precision_attack": 1.0,
+      "recall_attack": 1.0,
+      "f1_attack": 1.0,
+      "confusion_matrix": [
+        [
+          166907,
+          0
+        ],
+        [
+          0,
+          95237
+        ]
+      ]
+    }
+  ],
+  "best": "XGBoost"
+}

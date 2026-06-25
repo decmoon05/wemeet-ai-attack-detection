@@ -1,0 +1,42 @@
+{
+  "function_oracle": {
+    "Bot(3/2)": {
+      "xgb_recall": 0.996,
+      "xgb_fp": 100.0,
+      "et_recall": 0.996,
+      "et_fp": 100.0
+    },
+    "Web(2/22)": {
+      "xgb_recall": 0.68,
+      "xgb_fp": 103.0,
+      "et_recall": 0.612,
+      "et_fp": 100.0
+    },
+    "DoS-GE(2/15)": {
+      "xgb_recall": 1.0,
+      "xgb_fp": 100.0,
+      "et_recall": 1.0,
+      "et_fp": 106.0
+    },
+    "DDoS-HOIC(2/21)": {
+      "xgb_recall": 1.0,
+      "xgb_fp": 101.0,
+      "et_recall": 1.0,
+      "et_fp": 100000.0
+    }
+  },
+  "raw_knn_lofo": {
+    "Bot(3/2)": {
+      "recall": 0.0,
+      "fp": 414.0
+    },
+    "Web(2/22)": {
+      "recall": 0.006,
+      "fp": 120.0
+    },
+    "DoS-GE(2/15)": {
+      "recall": 0.165,
+      "fp": 498.0
+    }
+  }
+}

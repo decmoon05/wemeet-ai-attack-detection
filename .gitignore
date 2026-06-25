@@ -15,10 +15,9 @@ scratch/
 *.docx
 *.joblib
 
-# 산출물 원본(개인정보 포함 hwpx/docx/pptx, 대용량) — 공유본은 output/share/ 에 별도
-output/
-!output/share/
-!output/share/**
+# 산출물: 대용량·개인정보 원본은 제외, 평가 지표 JSON만 공유(수치 검증용)
+output/*
+!output/metrics_*.json
 
 # 파이썬
 __pycache__/

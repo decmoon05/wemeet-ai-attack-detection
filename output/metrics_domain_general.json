@@ -1,0 +1,55 @@
+{
+  "fp_budget": 100,
+  "results": [
+    {
+      "holdout": "DoS",
+      "n_inv_feat": 9,
+      "full_F2_rec": 0.003,
+      "full_F2_fp": 78.0,
+      "invariant_rec": 0.09,
+      "invariant_fp": 98.0,
+      "OR_rec": 0.051,
+      "OR_fp": 106.0
+    },
+    {
+      "holdout": "Bot",
+      "n_inv_feat": 8,
+      "full_F2_rec": 0.0,
+      "full_F2_fp": 113.0,
+      "invariant_rec": 0.123,
+      "invariant_fp": 90.0,
+      "OR_rec": 0.107,
+      "OR_fp": 132.0
+    },
+    {
+      "holdout": "Web",
+      "n_inv_feat": 10,
+      "full_F2_rec": 0.003,
+      "full_F2_fp": 119.0,
+      "invariant_rec": 0.062,
+      "invariant_fp": 88.0,
+      "OR_rec": 0.057,
+      "OR_fp": 116.0
+    },
+    {
+      "holdout": "DDoS",
+      "n_inv_feat": 9,
+      "full_F2_rec": 0.554,
+      "full_F2_fp": 144.0,
+      "invariant_rec": 0.038,
+      "invariant_fp": 94.0,
+      "OR_rec": 0.54,
+      "OR_fp": 146.0
+    },
+    {
+      "holdout": "BruteForce",
+      "n_inv_feat": 13,
+      "full_F2_rec": 0.0,
+      "full_F2_fp": 112.0,
+      "invariant_rec": 0.0,
+      "invariant_fp": 124.0,
+      "OR_rec": 0.0,
+      "OR_fp": 108.0
+    }
+  ]
+}

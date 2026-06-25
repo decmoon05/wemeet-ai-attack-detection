@@ -1,0 +1,89 @@
+{
+  "budget_fp_per_100k": 100,
+  "results": [
+    {
+      "fold": "DoS-GE/Slow(2/15)",
+      "oracle_rec": 0.291,
+      "rec_allpast": 0.025,
+      "fp_allpast": 57.0,
+      "rec_last1": 0.025,
+      "fp_last1": 57.0,
+      "rec_last2": 0.025,
+      "fp_last2": 57.0,
+      "benign_shift": false,
+      "diagnosis": "임계값 전이 문제(oracle 높은데 운영 낮음→정책으로 회복 가능)"
+    },
+    {
+      "fold": "DoS-Hulk(2/16)",
+      "oracle_rec": 0.0,
+      "rec_allpast": 0.519,
+      "fp_allpast": 91730.0,
+      "rec_last1": 0.515,
+      "fp_last1": 91695.0,
+      "rec_last2": 0.519,
+      "fp_last2": 91730.0,
+      "benign_shift": true,
+      "diagnosis": "표현 문제(oracle도 낮음→Deep SAD 필요)"
+    },
+    {
+      "fold": "DDoS-LOIC(2/20)",
+      "oracle_rec": 0.491,
+      "rec_allpast": 0.0,
+      "fp_allpast": 13.0,
+      "rec_last1": 0.0,
+      "fp_last1": 3.0,
+      "rec_last2": 0.0,
+      "fp_last2": 9.0,
+      "benign_shift": false,
+      "diagnosis": "임계값 전이 문제(oracle 높은데 운영 낮음→정책으로 회복 가능)"
+    },
+    {
+      "fold": "DDoS-HOIC(2/21)",
+      "oracle_rec": 0.994,
+      "rec_allpast": 0.825,
+      "fp_allpast": 7.0,
+      "rec_last1": 0.828,
+      "fp_last1": 15.0,
+      "rec_last2": 0.825,
+      "fp_last2": 3.0,
+      "benign_shift": false,
+      "diagnosis": "임계값 전이 문제(oracle 높은데 운영 낮음→정책으로 회복 가능)"
+    },
+    {
+      "fold": "Web(2/22)",
+      "oracle_rec": 0.006,
+      "rec_allpast": 0.003,
+      "fp_allpast": 79.0,
+      "rec_last1": 0.991,
+      "fp_last1": 20904.0,
+      "rec_last2": 0.006,
+      "fp_last2": 204.0,
+      "benign_shift": false,
+      "diagnosis": "표현 문제(oracle도 낮음→Deep SAD 필요)"
+    },
+    {
+      "fold": "Web(2/23)",
+      "oracle_rec": 0.434,
+      "rec_allpast": 0.431,
+      "fp_allpast": 91.0,
+      "rec_last1": 0.44,
+      "fp_last1": 112.0,
+      "rec_last2": 0.447,
+      "fp_last2": 151.0,
+      "benign_shift": false,
+      "diagnosis": "대체로 OK"
+    },
+    {
+      "fold": "Bot(3/2)",
+      "oracle_rec": 0.0,
+      "rec_allpast": 0.0,
+      "fp_allpast": 71.0,
+      "rec_last1": 0.0,
+      "fp_last1": 91.0,
+      "rec_last2": 0.0,
+      "fp_last2": 104.0,
+      "benign_shift": false,
+      "diagnosis": "표현 문제(oracle도 낮음→Deep SAD 필요)"
+    }
+  ]
+}

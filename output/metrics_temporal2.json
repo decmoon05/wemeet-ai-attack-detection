@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "hold": "Bot",
+      "F2_rec": 0.015,
+      "F2_fp": 23.0,
+      "ext_rec": 0.489,
+      "ext_fp": 18.0,
+      "temp_imp": 0.839,
+      "delta": 0.474
+    },
+    {
+      "hold": "DoS",
+      "F2_rec": 0.262,
+      "F2_fp": 18.0,
+      "ext_rec": 0.532,
+      "ext_fp": 20.0,
+      "temp_imp": 0.891,
+      "delta": 0.27
+    },
+    {
+      "hold": "DDoS",
+      "F2_rec": 0.46,
+      "F2_fp": 23.0,
+      "ext_rec": 0.501,
+      "ext_fp": 17.0,
+      "temp_imp": 0.806,
+      "delta": 0.041
+    },
+    {
+      "hold": "BruteForce",
+      "F2_rec": 0.743,
+      "F2_fp": 21.0,
+      "ext_rec": 0.74,
+      "ext_fp": 18.0,
+      "temp_imp": 0.853,
+      "delta": -0.003
+    },
+    {
+      "hold": "Web",
+      "F2_rec": 0.0,
+      "F2_fp": 41.0,
+      "ext_rec": 0.0,
+      "ext_fp": 33.0,
+      "temp_imp": 0.952,
+      "delta": 0.0
+    }
+  ]
+}

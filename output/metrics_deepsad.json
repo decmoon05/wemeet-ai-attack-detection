@@ -1,0 +1,29 @@
+{
+  "method": "DeepSAD relative-kNN vs IsolationForest, LOFO",
+  "results": [
+    {
+      "holdout": "DoS",
+      "n_atk": 30000,
+      "DeepSAD_rec@100": 0.005,
+      "DeepSAD_fp": 112.0,
+      "IsoForest_rec@100": 0.022,
+      "IsoForest_fp": 120.0
+    },
+    {
+      "holdout": "Bot",
+      "n_atk": 15000,
+      "DeepSAD_rec@100": 0.0,
+      "DeepSAD_fp": 122.0,
+      "IsoForest_rec@100": 0.0,
+      "IsoForest_fp": 120.0
+    },
+    {
+      "holdout": "Web",
+      "n_atk": 882,
+      "DeepSAD_rec@100": 0.011,
+      "DeepSAD_fp": 88.0,
+      "IsoForest_rec@100": 0.129,
+      "IsoForest_fp": 120.0
+    }
+  ]
+}

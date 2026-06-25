@@ -1,0 +1,121 @@
+{
+  "budget": 100,
+  "results": [
+    {
+      "fold": "DDoS-LOIC(2/20)",
+      "oracle_rec": 0.491,
+      "policies": {
+        "worst-day": {
+          "rec": 0.0,
+          "fp_te": 3.0
+        },
+        "pooled": {
+          "rec": 0.0,
+          "fp_te": 10.0
+        },
+        "median-day": {
+          "rec": 0.489,
+          "fp_te": 83.0
+        },
+        "last-1": {
+          "rec": 0.0,
+          "fp_te": 3.0
+        },
+        "last-2": {
+          "rec": 0.0,
+          "fp_te": 4.0
+        },
+        "recency-hl1": {
+          "rec": 0.0,
+          "fp_te": 10.0
+        }
+      }
+    },
+    {
+      "fold": "DoS-GE/Slow(2/15)",
+      "oracle_rec": 0.291,
+      "policies": {
+        "worst-day": {
+          "rec": 0.025,
+          "fp_te": 57.0
+        },
+        "pooled": {
+          "rec": 0.025,
+          "fp_te": 57.0
+        },
+        "median-day": {
+          "rec": 0.025,
+          "fp_te": 57.0
+        },
+        "last-1": {
+          "rec": 0.025,
+          "fp_te": 57.0
+        },
+        "recency-hl1": {
+          "rec": 0.025,
+          "fp_te": 57.0
+        }
+      }
+    },
+    {
+      "fold": "DDoS-HOIC(2/21)",
+      "oracle_rec": 0.994,
+      "policies": {
+        "worst-day": {
+          "rec": 0.825,
+          "fp_te": 2.0
+        },
+        "pooled": {
+          "rec": 0.825,
+          "fp_te": 6.0
+        },
+        "median-day": {
+          "rec": 0.825,
+          "fp_te": 13.0
+        },
+        "last-1": {
+          "rec": 0.831,
+          "fp_te": 17.0
+        },
+        "last-2": {
+          "rec": 0.825,
+          "fp_te": 3.0
+        },
+        "recency-hl1": {
+          "rec": 0.825,
+          "fp_te": 8.0
+        }
+      }
+    },
+    {
+      "fold": "Bot(3/2)",
+      "oracle_rec": 0.0,
+      "policies": {
+        "worst-day": {
+          "rec": 0.0,
+          "fp_te": 9.0
+        },
+        "pooled": {
+          "rec": 0.0,
+          "fp_te": 65.0
+        },
+        "median-day": {
+          "rec": 0.0,
+          "fp_te": 97.0
+        },
+        "last-1": {
+          "rec": 0.0,
+          "fp_te": 96.0
+        },
+        "last-2": {
+          "rec": 0.0,
+          "fp_te": 99.0
+        },
+        "recency-hl1": {
+          "rec": 0.0,
+          "fp_te": 65.0
+        }
+      }
+    }
+  ]
+}
