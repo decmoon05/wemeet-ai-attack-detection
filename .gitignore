@@ -1,0 +1,34 @@
+# 데이터 (대용량, 외부 공개 금지)
+sources/
+
+# 교수님 제공 논문 PDF (저작권 — 공개 repo 금지)
+paper/
+
+# 임시·빌드 잔여물
+scratch/
+*.pdf
+
+# 오피스 산출물 바이너리(개인정보 포함 — 팀엔 별도 공유)
+*.pptx
+*.hwpx
+*.hwp
+*.docx
+*.joblib
+
+# 산출물 원본(개인정보 포함 hwpx/docx/pptx, 대용량) — 공유본은 output/share/ 에 별도
+output/
+!output/share/
+!output/share/**
+
+# 파이썬
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 자격증명
+*.kaggle
+kaggle.json
+access_token
+
+# gstack 세션 아티팩트(토큰 포함 — 커밋 금지)
+.gstack/
