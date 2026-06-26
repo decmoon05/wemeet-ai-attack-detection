@@ -137,6 +137,14 @@
 - ※ 수행일지 양식은 '채울 빈칸 표' 없이 1·2·3 항목 안내문만 → 안내문 보존 + 아래 내용 작성 방식.
 - #2는 자유양식이라 docx 유지(`팀과제2 진행간 어려운점.docx`).
 
+### #2 어려운점 쉬운 말 재작성 (2026-06-26)
+- 전문용어·AI 문체(허상/지름길/전이/temporal/conformal/NDR/artifact) 제거 → 학생이 멘토에게 직접 묻는 평이한 문장. `src/build_docx.py build_q2()`. (Word 열려있어 `_q2_tmp.docx`로 보관, 닫으면 본명으로 교체)
+
+### 개념 해설 PPT — 학습용 (2026-06-26)
+- 팀장 이해용 **기술 개념 해설 deck 13장** `output/발표자료/사이버보안 WE-Meet 개념·전이 기술해설.pptx` (`src/build_concept_deck.py`).
+- 구성: 학습지도(갭 메우는 계단) → 용어 ①모델·학습·분류 ②피처·라벨 ③분리·과적합·지름길 ④혼동행렬·재현율·임계값·AP ⑤일반화·분포이동 → ⑥**전이(covariate vs concept shift)** → ⑦oracle 증명 → ⑧temporal 개선 → ⑨conformal 위험점수 → ⑩SHAP·LLM → ⑪전체구조·핵심·한계.
+- 비유 없이 용어 정의 중심·기술적. build_deck.py 시각 시스템 재사용. PDF→PNG로 표지·전이·oracle·temporal 4장 시각 검증 완료(경계초과 0).
+
 ### GitHub 팀 공유 (2026-06-26)
 - **Public repo: https://github.com/decmoon05/wemeet-ai-attack-detection** (코드·문서 38파일, 348KB).
 - 제외(.gitignore): `sources/`(데이터 6.8GB)·`paper/`(논문 저작권)·`output/`(산출물 바이너리)·`.gstack/`(토큰)·오피스 파일·`*.joblib`.
