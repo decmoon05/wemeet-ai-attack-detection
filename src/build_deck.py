@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""멘토 소개용 PPT (결과 반영본) — 네이비+틴트, Pretendard, 16:9.
+"""프로젝트 소개용 PPT (결과 반영본) — 네이비+틴트, Pretendard, 16:9.
 문제→접근→정직한 평가→temporal 성과→다층방어→일정. python-pptx 네이티브.
 """
 from pptx import Presentation
@@ -96,7 +96,7 @@ nd=oval(s,11.42,1.97,0.66,0.66,NAVY2,TEAL,1.75); shptext(nd,[{"runs":[{"t":"AI",
 pill=rrect(s,0.9,0.92,2.85,0.5,TEAL,adj=0.5); shptext(pill,[{"runs":[{"t":"사이버보안 WE-Meet","s":12.5,"b":True,"c":NAVY}]}])
 tb(s,0.9,1.95,9.2,1.1,[{"runs":[{"t":"AI","s":44,"b":True,"c":TEAL},{"t":" 기반 공격탐지 에이전트","s":44,"b":True,"c":WHITE}]}])
 tb(s,0.92,3.0,11,0.5,[{"runs":[{"t":"CSE-CIC-IDS2018 네트워크 흐름 기반 침입 탐지 · 중간 진행 보고","s":18,"c":NAVYTX}]}])
-tb(s,0.92,4.7,8,0.32,[{"runs":[{"t":"멘토 소개 자료 · 소집 멘토링 대체 제출본","s":12,"b":True,"c":TEAL,"spc":40}]}])
+tb(s,0.92,4.7,8,0.32,[{"runs":[{"t":"프로젝트 소개 자료 · 소집 멘토링 대체 제출본","s":12,"b":True,"c":TEAL,"spc":40}]}])
 chips=["문제·데이터","구성·방법","평가·결과","한계·다음"]
 lx=0.92
 for i,c in enumerate(chips):
@@ -275,14 +275,14 @@ tb(s,11.0,0.34,1.733,0.34,[{"runs":[{"t":"09 / 09","s":10.5,"c":FAINT}],"align":
 tb(s,0.95,2.5,10,0.8,[{"runs":[{"t":"진행 현황과 다음 계획","s":34,"b":True,"c":WHITE}]}])
 items=[("현재까지","탐지·날짜교차 평가·시간맥락 개선·SHAP 근거·LLM 설명·대시보드·로그 분석까지 구현 완료"),
        ("주요 결과","날짜 교차 기준 미관측 공격 탐지율 — 봇넷 0.49·DoS 0.62·DDoS 0.50·BruteForce 0.98 (Web 미탐)"),
-       ("다음 계획","멘토 피드백 반영 / (여건 시) 원본 데이터 재처리로 호스트 단위 피처 추가 / 결과보고서 정리")]
+       ("다음 계획","교수님 피드백 반영 / (여건 시) 원본 데이터 재처리로 호스트 단위 피처 추가 / 결과보고서 정리")]
 yy=3.5
 for h,d in items:
     rrect(s,0.95,yy,7.3,0.85,None,TEAL,1.25,adj=0.16)
     tb(s,1.2,yy+0.12,1.3,0.6,[{"runs":[{"t":h,"s":13,"b":True,"c":TEAL}]}],MSO_ANCHOR.MIDDLE)
     tb(s,2.55,yy+0.1,5.55,0.66,[{"runs":[{"t":d,"s":11.5,"c":NAVYTX}],"line":1.08}],MSO_ANCHOR.MIDDLE)
     yy+=0.98
-tb(s,0.95,6.75,11,0.4,[{"runs":[{"t":"팀 팀장 · 팀원   |   멘토님 피드백 부탁드립니다   |   2026 하기 계절학기","s":12.5,"c":FAINT}]}])
+tb(s,0.95,6.75,11,0.4,[{"runs":[{"t":"팀 팀장 · 팀원   |   교수님 피드백 부탁드립니다   |   2026 하기 계절학기","s":12.5,"c":FAINT}]}])
 
 import glob as _g
 base=r"C:\Users\WannaGoHome\Desktop\내 문서\coss\사이버보안 WE-MEET\output\발표자료"

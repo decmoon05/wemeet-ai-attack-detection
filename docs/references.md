@@ -47,10 +47,12 @@
   - https://dl.acm.org/doi/10.1145/3696379
 - 서베이: SOC용 LLM https://arxiv.org/abs/2509.10858 🔶 · NIDS용 LLM https://arxiv.org/abs/2507.04752 🔶
 
-## E. 교수님 제공 논문 3편 (paper/ 폴더) ✅ 본문 정독
+## E. 교수님 제공 논문 (paper/ 폴더) ✅ 본문 정독
 - ① **Boateng et al. (2026), "Application of AI in Cyberattack Detection: A Review"**, *Sensors* 26, 1518. DOI 10.3390/s26051518
 - ② **Alharthi & Garcia (2026 preprint), "Automating Cloud Security and Forensics Through a Secure-by-Design GenAI Framework"**, ICDF2C 2025 ⚠️(arXiv ID·인용 일부 비정상 — 서지 재확인 필요)
 - ③ **Lee, Jeong, Han, Lee (2025), "LogRESP-Agent: A Recursive AI Framework for Context-Aware Log Anomaly Detection and TTP Analysis"**, *Applied Sciences* 15, 7237. DOI 10.3390/app15137237 (가천대)
+- ④ **Wang, Houng, Chen, Tseng (2023), "Network Anomaly Intrusion Detection Based on Deep Learning Approach"**, *Sensors* 23(4), 2171. DOI 10.3390/s23042171 ✅(전문 정독, 21p) — 대만 타이베이공대. CSE-CIC-IDS2018 전량으로 6개 딥러닝(DNN/CNN/RNN/LSTM/결합) 벤치마크, 전체 98%대. **단 Infiltration F1 0~5%·Web 53~74%(소수클래스 실패), 무작위 분할·accuracy 위주.** → "쉬운 공격은 풀렸고 어려운 공격이 미해결"의 근거. (1차 피드백 추천)
+- ⑤ **Peng, Han, Li, Liu, Liu, Gu (2025), "ROSE-BOX: A Lightweight and Efficient Intrusion Detection Framework for Resource-Constrained IIoT Environments"**, *Applied Sciences* 15, 6448. DOI 10.3390/app15126448 ✅(전문 정독, 23p) — 하얼빈공대. **RO(RandomForest)+S(SMOTE)+BO-X(베이지안최적화 XGBoost).** XGB-RF 피처선택+EarlyStopping으로 경량화, 효율을 추론시간(μs)·CPU%로 측정(모델크기·엣지보드 미측정). **CSE-CIC-IDS2018은 DoS Hulk+SlowHTTPTest+정상 3종만 → 100%, 무작위 분할·temporal 없음**(우리 artifact 함정과 동일 가능성). → 우리 강화 노선의 방법 차용처 + 차별점(어려운 공격·날짜교차) 명확화. (1차 피드백 추천)
 
 ## F. 모델·방법론 (우리 unseen 개선 시도에 사용/검토)
 - **위험점수/보정·conformal:**
